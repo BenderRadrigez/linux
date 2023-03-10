@@ -1,9 +1,9 @@
    0 cd /home
-   1 mkdir -p animals/dog 
-   2 mkdir animals/cat && mkdir animals/fish
+   1 mkdir -p animals/dogs 
+   2 mkdir animals/cats && mkdir animals/fish
    3 ls animals/
-   4 touch animals/cat/garfield && >> animals/dog/pluto && > animals/fish/nemo
-   5 ls animals/dog/
+   4 touch animals/cats/garfield && >> animals/dogs/pluto && > animals/fish/nemo
+   5 ls animals/dogs/
    6 cd ..
    7 ls
    8 >> tmp/adam
