@@ -1,15 +1,15 @@
    0 cd /home
    1 mkdir animals/dog 
-   2 mkdir animals/cat | mkdir animals/fish
+   2 mkdir animals/cat && mkdir animals/fish
    3 ls animals/
-   4 touch animals/cat/garfield | >> animals/dog/pluto | > animals/fish/nemo
+   4 touch animals/cat/garfield && >> animals/dog/pluto && > animals/fish/nemo
    5 ls animals/dog/
    6 cd ..
    7 ls
    8 >> tmp/adam
-   9 mkdir home/human | cp tmp/adam home/human
+   9 mkdir home/human && cp tmp/adam home/human
   10 ls home/human/
   11 >> tmp/evA
   12 mv tmp/evA opt/eve
-  13 mv opt/eve home/human/ | ls home/human/
-  14 history > history.txt | export_file history.txt
+  13 mv opt/eve home/human/ && ls home/human/
+  14 history > history.txt && export_file history.txt
