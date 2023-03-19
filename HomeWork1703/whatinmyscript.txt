@@ -1,0 +1,6 @@
+#!/bin/bash
+USER="Andrei"
+echo "date: $(date)" 
+echo "hello $USER!" 
+echo "Im working from $(pwd) directory"
+echo "now $(ps aux | wc -l) processes runing"
